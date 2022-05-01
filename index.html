@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <section>
+        <label for="fname"  >FIRST NAME </label>
+        <input id="fname" placeholder="--Your First Name--" type="text"> <br>
+        <label for="lname" >LAST NAME </label>
+        <input id="lname" placeholder="--Your Last Name--" type="text"> <br>
+        <label for="dob" >DOB </label>
+        <input id="dob" type="date">
+        <label for="age" >AGE</label> 
+        <input id="age" type="number"> <br>
+        <label for="email">E MAIL</label>
+        <input id="email" type="email"> <br>
+        <label for="phone-no">PHONE NO</label>
+        <input type="tel" name="" id="phone-no"> <br>
+
+        <label for="education">EDUCATION</label>
+        <select name="graduation" id="graduate">
+            <option value="ug">UG</option>
+            <option value="pg">PG</option>
+        </select>
+
+        <select name="branch-ug" id="branch-ug">
+            <option value="bsc">B.SC</option>
+            <option value="bcom">B.COM</option>
+            <option value="bba">BBA</option>
+            <option value="ba">BA</option>
+        </select>
+
+        <select name="branch-pg" id="branch-pg">
+            <option value="msc">M.SC</option>
+            <option value="mcom">M.COM</option>
+            <option value="mba">MBA</option>
+            <option value="ma">MA</option>
+        </select>
+
+        <input type="text" id="dept" placeholder="---Department Of Study---"> <br>
+
+        <label for="skills" id="skill-label">SKILLS</label> <br>
+        <textarea name="skills" id="skills" cols="30" rows="5"></textarea> <br>
+
+        <label for="upload">UPLOAD RESUME</label>
+        <input type="file" name="" id="uploaded"> <br>
+        
+        <button id="upload-btn">UPLOAD</button>
+    </section>
+    <p id="p"></p>
+    <script src="./vendor.js"></script>
+    <script src="./script.js"></script>
+    </body>
+</html>

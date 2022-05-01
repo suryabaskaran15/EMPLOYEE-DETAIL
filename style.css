@@ -1,0 +1,53 @@
+*{
+    margin: 15px;
+}
+body{
+    background: url("image/background.jpg")  fixed ;
+    opacity: 0.8;
+}
+ #fname{
+     margin-left: 20px;
+     
+ }
+ #lname{
+     margin-left: 24px;
+ }
+ #dob{
+     margin-left: 10px;
+ }
+ #age{
+     width: 30px;
+     height: 20px;
+ }
+ #email{
+     margin-left: 55px;
+ }
+ #phone-no{
+     margin-left: 25px;
+ }
+ #graduate{
+     margin-left: 15px;
+ }
+ 
+ #skills{
+    margin-left:120px;
+   }
+   #upload-btn{
+       transition: 0.5s;
+       width: 120px;
+       height: 40px;
+       background: none;
+       font-size: 25px;
+       color: lightblue;
+       border: 3px solid lightblue;
+       margin: 80px;
+       border-radius: 5px;
+       outline: none;
+       cursor: pointer;
+   }
+   #upload-btn:hover{
+       transition: 00.5s;
+       background: lightblue;
+       color: black;
+       box-shadow: 0px 0px 40px lightblue;
+   }
